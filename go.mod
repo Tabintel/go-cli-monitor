@@ -1,4 +1,4 @@
-module go-cli-monitor
+module github.com/tabintel/go-cli-monitor
 
 go 1.22.0
 

@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 	"github.com/spf13/cobra"
-	"go-cli-monitor/internal"
+	"github.com/tabintel/go-cli-monitor/internal"
 )
 
 var cpuCmd = &cobra.Command{

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-cli-monitor/cmd"
+	"github.com/tabintel/go-cli-monitor/cmd"
 )
 
 func main() {
