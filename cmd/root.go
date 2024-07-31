@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 	"github.com/spf13/cobra"
-	"github.com/tabintel/go-cli-monitor/internal"
+	//"github.com/tabintel/go-cli-monitor/internal"
 )
 
 var rootCmd = &cobra.Command{
@@ -22,6 +22,6 @@ func Execute() {
 	}
 }
 
-funt init() {
+func init() {
 	rootCmd.AddCommand(cpuCmd)
 }
